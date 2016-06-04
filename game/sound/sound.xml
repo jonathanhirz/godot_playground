@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="4" version="2.0" version_name="Godot Engine v2.0.stable.official">
-	<ext_resource path="res://sounds/DeathExplosion.smp" type="Sample" index="0"></ext_resource>
-	<ext_resource path="res://scripts/sound.gd" type="Script" index="1"></ext_resource>
+	<ext_resource path="res://game/ship/DeathExplosion.smp" type="Sample" index="0">
+	</ext_resource>
+	<ext_resource path="res://game/sound/sound.gd" type="Script" index="1">
+	</ext_resource>
 	<resource type="SampleLibrary" path="local://1">
+
+
+
+
 		<dictionary name="samples/DeathExplosion" shared="false">
 			<string> "db" </string>
 			<real> 0 </real>
@@ -71,9 +77,9 @@
 				<int> 0 </int>
 				<real> 5000 </real>
 				<int> 2 </int>
-				<real> 379 </real>
+				<real> 380 </real>
 				<real> 222 </real>
-				<real> 616 </real>
+				<real> 617 </real>
 				<real> 293 </real>
 				<bool> False </bool>
 				<bool> True </bool>
